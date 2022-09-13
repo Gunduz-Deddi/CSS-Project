@@ -1,0 +1,8 @@
+.flex{
+    display:flex
+}
+.align-items-center{
+    align-items:center;
+}
+
+/* ayrica css de flex kodunu yaziriq ki esas html tetbiq ede bilek */
