@@ -1,4 +1,6 @@
-
+body{
+    font-family:"Clarkson",Helvetica,sans-serif;sans-serif;
+}
 
 #main{
 width: 100vw;
@@ -20,8 +22,6 @@ position: relative;
     width: 100%;     /* maindeki en ve uzulugu oldugu kimi tetbiq edilir  */
     height: 100%;    
     background-color: rgba( 0, 0, 0, 0.5); /* arxa fonu seffafligin +- etmek ucun*/
-
-
 }
 
 .main-navbar{
@@ -71,17 +71,74 @@ img{
     text-transform: uppercase;
     font-family:"Clarkson",Helvetica,sans-serif;sans-serif;
     font-weight: 0,600;
-
 }
-
 
 .main-navbar-user ul li:last-child a{
     background-color: whitesmoke;
     padding: 15px 20px;
 }
 
-.write{
-    font-size: 50px;
+/*-  2-ci hissesi-*/
+
+.main-middle{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+.main-middle-page{
+    border: 1px solid red;
+    height: 487px;
+    position: relative;
+    z-index: 3;
+}
+
+.main-middle-page-mark{
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    font-size: 4em;
+    transform: translate(0%);
+    padding: 0px 100px;
+    
+}
+.main-middle-page-mark a {
+    background-color: white;
+    color: palevioletred;
+    
+}
+.main-middle-page-content{
+    width: 40%;
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    text-align: left;
+
+}
+.main-middle-page-content h1{
+    font-size: 4em;
+    font-weight: 0,400;
     color: white;
-    font-display: ;
+}
+
+.main-middle-page-content p{
+    font-size: 1.5em;
+    font-weight: 0,400;
+    color:whitesmoke;
+    line-height: normal;
+}
+
+.btn{
+    transform: translate(40%);
+    top: 25px;
+    left: 80%;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    background:transparent;
+    color:white;
+    text-decoration: none;
+
 }

@@ -6,3 +6,15 @@
 }
 
 /* ayrica css de flex kodunu yaziriq ki esas html tetbiq ede bilek */
+.justify-content-center{
+    justify-content: center;
+}
+.btn{
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    background:transparent;
+    color:white;
+    text-decoration: none;
+
+}
