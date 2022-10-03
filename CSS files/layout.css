@@ -49,7 +49,8 @@ table {
 
 
 .container{
-    width: 1200 px;
+    max-width: 1200px;
+	max-height: 800px;
     margin: 0 auto;
 }
 
@@ -58,6 +59,13 @@ table {
     justify-content: space-between;
 	flex-wrap: wrap;
 }
+img {
+	width: 100%;
+	
+}
+ .steps__video-container{
+	width: 100%;
+ }
 
 .col-1{
     width: calc((100%/12)*1);

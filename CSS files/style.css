@@ -1,3 +1,11 @@
+:root {
+--white:#ffffff;
+--black: #0E0301;
+--violet:#0E010D;
+    
+}
+
+
 body{
     font-family:"Clarkson",Helvetica,sans-serif;sans-serif;
 }
@@ -33,9 +41,9 @@ position: relative;
 
 img{
     max-width: 80%;
-    height: 60px;
+    height: 100px;
     padding-left: 30px;
-    color: white;
+    color: var(--white);
     
 }
 
@@ -47,14 +55,14 @@ img{
 
 .main-navbar-products ul li a{
 
-    color: white;
+    color:var(--white)
     text-decoration: none;
     font-family:"Clarkson",Helvetica,sans-serif;sans-serif;
 
 }
 .main-navbar-products ul li a:hover:first-child{
 
-   background-color:  black;
+   background-color: var(--black);
    padding: 15px 25px;
 }
 
@@ -66,7 +74,7 @@ img{
 
 .main-navbar-user ul li a{
     
-    color: black;
+    color: var(--black);
     text-decoration: none;
     text-transform: uppercase;
     font-family:"Clarkson",Helvetica,sans-serif;sans-serif;
@@ -105,8 +113,8 @@ img{
     
 }
 .main-middle-page-mark a {
-    background-color: white;
-    color: palevioletred;
+    background-color: var(--white);
+    color: var(--violet);
     
 }
 .main-middle-page-content{
@@ -138,7 +146,39 @@ img{
     padding: 10px 20px;
     border: 2px solid black;
     background:transparent;
-    color:white;
+    color:var(--white);
     text-decoration: none;
 
 }
+
+#entry{ 
+    width: 100vw;
+    height: 50vh;    /* border legv elemek lazim*/
+    background: whitesmoke;
+}
+
+.business {
+    
+    width: 500px;
+    height: 300px;
+    
+}
+
+.entry-content ul{
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.entry-content ul li{
+    font-size: 2em;
+    box-sizing: border-box;
+    color: var(--black);
+    text-decoration: none;
+    font-family:"Clarkson",Helvetica,sans-serif;sans-serif;
+}
+.entry-content ul li a{
+
+    padding-top: 40px;
+    font-weight: 0,600;
+}   
