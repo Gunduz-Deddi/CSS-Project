@@ -1,0 +1,61 @@
+/* Home section baslayir*/
+#home{
+    width: 100vw;
+    height: 100vh;
+    /* border gotururuk */
+    box-sizing: border-box;
+    background-image: url(../images/business.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    font-size: 16px;
+
+}
+    /* elave etmek ucun after pseudo elementi istifade edirik*/
+#home::after{
+    content:"" ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0);
+}
+
+.home-navbar{
+    padding: 10px 120px;
+    border-bottom: 1px solid rgb(23, 165, 184);
+    background-color: #11b8d1;
+    position: relative;
+    z-index: 2;
+   
+}
+.home-navbar-brand{
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+
+}
+img{
+    max-width: 150px;
+}
+
+.home-navbar-nav ul{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.home-navbar-nav ul li a{
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    padding: 0px 20px;
+    text-transform: uppercase;
+    position: relative;
+    border-radius: 5px;
+
+}
